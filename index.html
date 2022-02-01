@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Style Links -->
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="container">
+            <h1>Calculate Your Rewards</h1>
+            <div class="inputUser">
+                <label for="first">Vendor/Bills</label>
+                <div class="inputField">
+                    <input type="text" id="first" class="taginput" value="" placeholder='enter a number'>
+                    <span class="hideMe">Please Inter A Number</span>
+                </div>
+            </div>
+            <div class="inputUser">
+                <label for="second">Media/Ad Spand</label>
+                <div class="inputField">
+                    <input type="text" id="second" class="taginput" value="" placeholder='enter a number'>
+                    <span class="hideMe">Please Inter A Number</span>
+                </div>
+                
+            </div>
+            <div class="inputUser">
+                <label for="third">Corp.Spend</label>
+                <div class="inputField">
+                    <input type="text" id="third" class="taginput" value="" placeholder='enter a number'>
+                    <span class="hideMe">Please Inter A Number</span>
+                </div>
+            </div>
+            <div class="inputUser">
+                <label for="four">Team Project</label>
+                <div class="inputField">
+                    <input type="text" id="four" class="taginput" value="" placeholder='enter a number'>
+                    <span class="hideMe">Please Inter A Number</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="buttonUser">
+              <div class="userValue">
+                  <button id='brex'  class = 'button'>Brex</button>
+                  <span  id = 'valueBrexButton'></span>
+              </div>
+              <div class="userValue">
+                  <button id='stripe'  class = 'button'>Stripe</button>
+                  <span  id = 'valueStripeButton'></span>
+              </div>
+              <div class="userValue"> 
+                  <button id='amex'  class = 'button'>Amex</button>
+                  <span  id = 'valueAmexButton'></span>
+              </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="progressValue">
+                    <p id='unlimited'  class = 'progress'> Unlimited 
+                        <span class="progressBarUnlimited"></span>
+                        <span id="progressTextUnlimited"></span>
+                    </p>
+
+                    <p id='lifetime'  class = 'progress'> Lifetime
+                        <span class="progressBarLifetime"></span>
+                        <span id="progressTextLifetime"></span>
+                    </p>
+           </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/custom.js"></script>
+</body>
+</html>

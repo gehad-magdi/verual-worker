@@ -1,0 +1,73 @@
+body {
+  background: #dddddd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .container {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+body .container .inputUser, body .container .buttonUser {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+  margin: 20px 0;
+}
+body .container .inputUser label, body .container .buttonUser label {
+  font-size: 30px;
+  min-width: 270px;
+}
+body .container .inputUser .inputField, body .container .buttonUser .inputField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 25%;
+}
+body .container .inputUser .inputField .taginput, body .container .buttonUser .inputField .taginput {
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+}
+body .container .inputUser .inputField .hideMe, body .container .buttonUser .inputField .hideMe {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #f80404;
+  display: none;
+}
+body .container .inputUser .userValue, body .container .buttonUser .userValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .container .inputUser .userValue .button, body .container .buttonUser .userValue .button {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 5px #eee;
+}
+body .container .progressValue .progress {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+body .container .progressValue .progress span {
+  width: 50%;
+  padding: 10px;
+  background: #9a9898;
+  border-radius: 12px;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  transform: translate(0%, 0);
+}
+body .container .progressValue .progress span#progressTextUnlimited, body .container .progressValue .progress span#progressTextLifetime {
+  width: 0%;
+  background: #09729a;
+}/*# sourceMappingURL=custom.css.map */

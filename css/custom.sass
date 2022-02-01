@@ -1,0 +1,62 @@
+body
+    background: #dddddd
+    font-family: Arial, Helvetica, sans-serif
+    .container
+      width: 80%
+      margin: 30px auto
+      text-align: center
+      .inputUser,.buttonUser
+          display: flex
+          justify-content: center
+          align-items: baseline
+          gap: 5px
+          margin: 20px 0
+          label
+              font-size: 30px
+              min-width: 270px
+          .inputField
+              display: flex
+              flex-direction: column
+              justify-content: center
+              align-items: center
+              min-width: 25%
+              .taginput
+                  height: 30px
+                  width: 100%
+                  padding: 5px
+              .hideMe
+                  font-size: 12px
+                  margin-top: 5px
+                  color: #f80404
+                  display: none
+          .userValue
+              display: flex
+              flex-direction: column
+              justify-content: center
+              align-items: center
+              .button
+                  width: 130px
+                  height: 40px
+                  font-size: 20px
+                  border: 1px solid #000
+                  background: #fff
+                  border-radius: 12px
+                  margin: 10px
+                  box-shadow: 0px 0px 5px 5px #eee
+      .progressValue
+         .progress
+             position: relative
+             display: flex
+             width: 100%
+             span
+                 width: 50%
+                 padding: 10px
+                 background: #9a9898
+                 border-radius: 12px
+                 position: absolute
+                 top: 0
+                 left: 10%
+                 transform: translate(0%, 0)
+             span#progressTextUnlimited,span#progressTextLifetime
+                 width: 0%
+                 background: #09729a
